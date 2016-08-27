@@ -1,8 +1,9 @@
 {
     "name": "squareboat/flash",
-    "description": "A easy way for Laravel flash notifications.",
+    "description": "An easy way for Laravel flash notifications.",
     "type": "library",
     "license": "MIT",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "Amit Gupta",
