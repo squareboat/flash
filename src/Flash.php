@@ -115,14 +115,4 @@ class Flash
         $this->session->flash('flash_notification.important', true);
         return $this;
     }
-
-    /**
-     * Flash an overlay modal.
-     *
-     * @return \App\Utilities\Flash\SweetAlertNotifier $this
-     */
-    public function alert()
-    {
-        return new SweetAlertNotifier($this->session);
-    }
 }

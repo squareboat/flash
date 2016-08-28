@@ -116,11 +116,11 @@ flash()->error('This is an error message.');
 
 **Important**
 ```
-Flash::info('This is a info message.')->important();
+Flash::info('This is an important message.')->important();
 ```
 or
 ```
-flash('This is a warning message.')->important();
+flash('This is an important message.')->important();
 ```
 
 
