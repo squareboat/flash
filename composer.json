@@ -16,8 +16,8 @@
         "illuminate/session": "~5.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "5.5.4",
-        "mockery/mockery": "^0.9.4"
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "0.9.*"
     },
     "autoload": {
         "psr-4": {
