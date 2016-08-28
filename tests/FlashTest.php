@@ -2,7 +2,6 @@
 
 
 use Squareboat\Flash\Flash;
-use Mockery;
 
 class FlashTest extends PHPUnit_Framework_TestCase
 {
