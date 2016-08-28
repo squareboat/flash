@@ -1,5 +1,7 @@
 # Laravel Flash Notifications
 
+[![Build Status](https://travis-ci.org/akaamitgupta/flash.svg?branch=master)](https://travis-ci.org/akaamitgupta/flash)
+
 Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
 
 ## Install
