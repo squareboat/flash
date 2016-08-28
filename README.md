@@ -7,7 +7,7 @@ Laravel 5 flash messages, originally developed after the Laracasts video tutoria
 ### Install via composer
 
 ```
-$ composer require squareboat/flash
+$ composer require squareboat/flash dev-master
 ```
 
 or
@@ -81,30 +81,45 @@ public function create()
 **Success**
 ```
 Flash::success('This is a success message.');
+```
+or
+```
 flash()->success('This is a success message.');
 ```
 
 **Info**
 ```
 Flash::info('This is an info message.');
+```
+or
+```
 flash()->info('This is an info message.');
 ```
 
 **Warning**
 ```
 Flash::warning('This is a warning message.');
+```
+or
+```
 flash()->warning('This is a warning message.');
 ```
 
 **Error**
 ```
 Flash::error('This is an error message.');
+```
+or
+```
 flash()->error('This is an error message.');
 ```
 
 **Important**
 ```
-Flash::warning('This is a warning message.')->important();
+Flash::info('This is a info message.')->important();
+```
+or
+```
 flash('This is a warning message.')->important();
 ```
 
@@ -120,3 +135,7 @@ A common desire is to display a flash message for a few seconds, and then hide i
 ```
 
 This will find any alerts - excluding the important ones, which should remain until manually closed by the user - wait three seconds, and then fade them out.
+
+# License
+
+The MIT License. Copyright © SquareBoat 2016
