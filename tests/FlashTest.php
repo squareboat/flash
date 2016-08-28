@@ -1,6 +1,5 @@
 <?php
 
-
 use Squareboat\Flash\Flash;
 
 class FlashTest extends PHPUnit_Framework_TestCase
