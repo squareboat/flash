@@ -20,10 +20,10 @@ class FlashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadViewsFrom(__DIR__ . '/views', 'flash');
+        $this->loadViewsFrom(__DIR__ . '/../views', 'flash');
 
         $this->publishes([
-            __DIR__ . '/views' => base_path('resources/views/vendor/squareboat/flash')
+            __DIR__ . '/../views' => base_path('resources/views/vendor/flash')
         ]);
     }
 
