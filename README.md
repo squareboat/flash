@@ -58,7 +58,7 @@ If you need to modify the flash message partials, you can run:
 php artisan vendor:publish
 ```
 
-The package view will now be located in the `resources/views/vendor/squareboat/flash` directory.
+The package view will now be located in the `resources/views/vendor/flash` directory.
 
 And that's it! With your coffee in reach, start flashing out messages!
 
@@ -70,7 +70,7 @@ Within your controllers, before you perform a redirect...
 ```
 public function create()
 {
-    // code for resource creation
+    // do something awesome...
 
     flash()->success('Resource created successfully!');
 
