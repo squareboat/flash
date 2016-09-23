@@ -1,5 +1,7 @@
 # Laravel Flash Notifications
 
+[![Build Status](https://travis-ci.org/squareboat/flash.svg?branch=master)](https://travis-ci.org/squareboat/flash)
+
 Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
 
 ## Install
@@ -135,4 +137,4 @@ This will find any alerts - excluding the important ones, which should remain un
 
 # License
 
-The MIT License. Copyright © SquareBoat 2016
+The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © SquareBoat 2016
