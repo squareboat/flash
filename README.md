@@ -1,7 +1,5 @@
 # Laravel Flash Notifications
 
-[![Build Status](https://travis-ci.org/akaamitgupta/flash.svg?branch=master)](https://travis-ci.org/akaamitgupta/flash)
-
 Laravel 5 flash messages, originally developed after the Laracasts video tutorial on the same topic: [Flexible Flash Messages](https://laracasts.com/lessons/flexible-flash-messages).
 
 ## Install
@@ -37,7 +35,6 @@ Squareboat\Flash\FlashServiceProvider::class,
 'Flash' => Squareboat\Flash\Facades\Flash::class,
 ```
 
-
 ### Include default alert view to your layout
 
 Package default provides bootstrap ready alert view. Just include `flash::message` file to your main layout in blade:
@@ -61,7 +58,6 @@ php artisan vendor:publish
 The package view will now be located in the `resources/views/vendor/flash` directory.
 
 And that's it! With your coffee in reach, start flashing out messages!
-
 
 ## Usage
 
@@ -124,7 +120,6 @@ or
 ```
 flash('This is an important message.')->important();
 ```
-
 
 ## Hiding Flash Messages
 
