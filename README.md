@@ -28,13 +28,13 @@ Once installation operation is complete, simply add both the service provider an
 
 #### Service Provider
 ```
-Squareboat\Flash\FlashServiceProvider::class,
+SquareBoat\Flash\FlashServiceProvider::class,
 ```
 
 #### Facade
 
 ```
-'Flash' => Squareboat\Flash\Facades\Flash::class,
+'Flash' => SquareBoat\Flash\Facades\Flash::class,
 ```
 
 ### Include default alert view to your layout
@@ -137,4 +137,4 @@ This will find any alerts - excluding the important ones, which should remain un
 
 # License
 
-The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © SquareBoat 2016
+The MIT License. Please see [License File](LICENSE.md) for more information. Copyright © 2016 [SquareBoat](https://squareboat.com)

@@ -1,6 +1,6 @@
 <?php
 
-use Squareboat\Flash\Flash;
+use SquareBoat\Flash\Flash;
 
 class FlashTest extends PHPUnit_Framework_TestCase
 {
@@ -14,7 +14,7 @@ class FlashTest extends PHPUnit_Framework_TestCase
     /**
      * The package's flash implementation.
      *
-     * @var \Squareboat\Flash\Flash
+     * @var \SquareBoat\Flash\Flash
      */
     protected $flash;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Squareboat\Flash;
+namespace SquareBoat\Flash;
 
 use Illuminate\Session\Store;
 

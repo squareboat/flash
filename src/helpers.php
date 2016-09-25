@@ -6,7 +6,7 @@ if ( ! function_exists('flash')) {
      *
      * @param  string|null $message
      * @param  string      $level
-     * @return \Squareboat\Flash\Flash
+     * @return \SquareBoat\Flash\Flash
      */
     function flash($message = null, $level = 'info')
     {
