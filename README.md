@@ -9,17 +9,7 @@ Laravel 5 flash messages, originally developed after the Laracasts video tutoria
 ### Install via composer
 
 ```
-$ composer require squareboat/flash dev-master
-```
-
-or
-
-Add dependency to your `composer.json` file and run composer update.
-
-```
-require: {
-    "squareboat/flash": "dev-master"
-}
+$ composer require squareboat/flash
 ```
 
 ### Configure Laravel
